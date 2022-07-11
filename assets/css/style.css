@@ -608,6 +608,7 @@ section {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
   left: 0;
   right: 0;
   top: 0;
