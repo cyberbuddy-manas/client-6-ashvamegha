@@ -29,6 +29,27 @@
     }
   </style>
 
+  <style>
+    .mentor a, .form button {
+      background: #f58220;
+      border: 0;
+      padding: 10px 24px;
+      color: #fff;
+      transition: 0.4s;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .mentor a:hover, .form button:hover {
+      color: white;
+      background-color: #e2781b;
+    }
+
+    .field {
+
+    }
+  </style>
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -118,6 +139,26 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+    <section class="mentor">
+      <div class="container">
+        <div class="section-title">
+          <span>Mentor Program</span>
+          <h2>Mentor Program</h2>
+          <p>Be a part of the best mentorship program and gain invaluable experience</p>
+        </div>
+        <div class="row" style="text-align: center;">
+          <p>We believe in mentoring young food technologists to prepare them for various roles in food industry during their graduation and post-graduation years. During the tenure, the person will be mentored in food regulatory compliance, digital marketing, sales and project writing. Also, the person will be groomed in soft skills like time management, stress management, team management and others that are required to be successful in any field.</p><br>
+          <p>The working hours are flexible but we expect the person to dedicate at least a total of 8 working hours on weekdays and 4 working hours on Saturdays for us. 2-4 mentoring sessions are scheduled every month.</p><br>
+          <p>We believe in learning and growing together in the process and aims to work for the development of the organisation and team.</p><br>
+          <p><b>Session Openings:</b> October & April</p><br>
+          <div style="display: grid; place-items: center; padding-top: 20px;">
+            <a href="#form" class="scrollto animate__animated animate__fadeInUp">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- ====== Mentees Section ======= -->
     <section id="team" class="team">
       <div class="container">
         <div class="section-title">
@@ -270,6 +311,47 @@
         
       </div>
     </section><!-- End Team Section -->
+
+    <section id="form" class="form">
+      <div class="container">
+        <div class="section-title">
+          <span>Apply</span>
+          <h2>Apply</h2>
+          <p>Fill the details below to join our program</p>
+        </div>
+
+        <div class="row">
+          <form action="https://formspree.io/f/xoqrokjn" method="POST" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+              <div class="col-md-6 form-group">
+                <input type="number" name="Number" class="form-control" id="name" placeholder="Your Contact Number" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="text" class="form-control" name="Home" id="email" placeholder="Your Hometown" required>
+              </div>
+            </div>
+            <div class="row" style="padding: 20px 12.3px;">
+              <select name="Field" id="field" required class="field form-control">
+                <option value="none">Select an option</option>
+                <option value="B.Tech Final Year">B.Tech Final Year</option>
+                <option value="Msc Final Year">Msc Final Year</option>
+                <option value="Mtech Final Year">Mtech Final Year</option>
+                <option value="PhD">PhD</option>
+              </select>
+            </div>
+            <div class="text-center" style="padding-top: 25px;"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
